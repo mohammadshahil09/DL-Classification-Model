@@ -138,8 +138,8 @@ conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=iris.target_names)
 
 # Print details
-print("\nName: Abbu Rehan")
-print("Register No: 212223240165")
+print("\nName: MOHAMMAD SHAHL")
+print("Register No: 212223240044")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -160,8 +160,8 @@ with torch.no_grad():
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName: Abbu Rehan")
-print("Register No: 212223240165")
+print("\nName: MOHAMMAD SHAHL")
+print("Register No: 212223240044")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 ```
@@ -170,18 +170,22 @@ print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 ### Register Number: 212223240044
 
 ### Dataset Information
-<img width="1484" height="623" alt="image" src="https://github.com/user-attachments/assets/9e3fe6cb-40c9-438e-9d1a-1778a9cff2ff" />
+<img width="885" height="592" alt="Screenshot 2025-11-18 092123" src="https://github.com/user-attachments/assets/8f9c561c-1b37-4b61-becc-24a5fc39307e" />
+
 
 ### OUTPUT
 
 ## Confusion Matrix
-<img width="1482" height="581" alt="image" src="https://github.com/user-attachments/assets/672b928a-c4ef-4b9d-a6b4-e733df39bb12" />
+<img width="673" height="644" alt="Screenshot 2025-11-18 092143" src="https://github.com/user-attachments/assets/0a1b81be-50ad-4ebe-b6b6-72d936e1be85" />
+
 
 ## Classification Report
-<img width="1483" height="393" alt="image" src="https://github.com/user-attachments/assets/52aa84c1-dd76-4df3-be83-890859f1cec3" />
+<img width="621" height="353" alt="Screenshot 2025-11-18 092230" src="https://github.com/user-attachments/assets/84b7fc0d-eb44-4e04-8e83-8040346a1baf" />
+
 
 ### New Sample Data Prediction
-<img width="1486" height="108" alt="image" src="https://github.com/user-attachments/assets/d3039e7b-88a2-4650-8fdf-63362e80740b" />
+<img width="472" height="94" alt="Screenshot 2025-11-18 092238" src="https://github.com/user-attachments/assets/32326f50-571b-4c2b-9b1c-c767a273021d" />
+
 
 ## RESULT
 Thus, a neural network classification model was successfully developed and trained using PyTorch
